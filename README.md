@@ -1,0 +1,2 @@
+# bd-documentations
+BarraDataSquad documentation

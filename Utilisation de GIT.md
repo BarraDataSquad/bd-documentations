@@ -59,7 +59,8 @@ commits.
 #### Exemple de Message de Commit :
 
 ```text
-feat: Ajouter fonction de recherche avancée / Issue #123
+feat(123): Ajouter une fonction de recherche avancée
+docs(123): Documentation développeur pour la recherche avancée
 ```
 
 ### 2. Granularité des Commits

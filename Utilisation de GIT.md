@@ -53,8 +53,10 @@ commits.
     - `docs`: un commit de type `docs` introduit une modification ou un ajout de documentation
     - `build`: Utilisé pour des changements qui affectent le système de build ou les dépendances externes.
     - `chore`: Pour les modifications mineures qui n'affectent pas le code source ou la fonctionnalité de l'application.
+    - `ci`: Pour les modifications de pipeline.
+    - `perf`: Pour l'amélioration des performances.
+- **Scope**: Références aux tickets d'issue ou de bug concernés.
 - **Corps du Message** : Fournit des détails supplémentaires. Expliquez le changement.
-- **Pied de Page** (optionnel) : Références aux tickets d'issue ou de bug concernés.
 
 #### Exemple de Message de Commit :
 
@@ -97,6 +99,12 @@ des changements. Voici les aspects clés de notre workflow Git :
     - `release/` : Branches préparant la prochaine version à déployer, permettant la correction de bugs et la
       documentation.
 
+#### Exemple de Branches :
+
+```text
+🌱 feature/123-fonction-recherche-avancee
+```
+
 ### 2. Stratégies de Fusion et de Rebase
 
 - **Fusion (Merge)** :
@@ -115,7 +123,7 @@ des changements. Voici les aspects clés de notre workflow Git :
 
 - Toutes les modifications doivent être soumises sous forme de pull requests (PRs) pour permettre la revue de code.
 - Les PRs doivent être liées aux tickets d'issues correspondants si applicable.
-- Chaque PR doit être revue par au moins un autre membre de l'équipe avant la fusion.
+- Chaque PR doit être revue par au moins 2 ou 3 membres de l'équipe avant la fusion.
 - Encouragez les commentaires constructifs dans les revues de PR pour améliorer la qualité du code.
 
 ### 4. Gestion des Releases
